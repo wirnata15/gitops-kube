@@ -5,4 +5,4 @@ metadata:
   namespace: httpd
 data:
   index.html: |
-    Ini tampilan dari NGINX dan nama saya Agung Ganteng
+    Ini tampilan dari HTTPD dan nama saya Agung Ganteng
