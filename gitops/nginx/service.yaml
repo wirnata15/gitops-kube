@@ -4,10 +4,9 @@ metadata:
   name: nginx-service
   namespace: nginx
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
-    app: simple-nginx
+    app: nginx
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30081
